@@ -14,7 +14,7 @@ public class Category {
 
     @OneToMany(mappedBy = "category", cascade = CascadeType.REMOVE)
     private List<Book> books;
-//
+
     public int getId() {
         return id;
     }
